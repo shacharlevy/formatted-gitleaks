@@ -54,5 +54,5 @@ docker run --rm -v %cd%:/code formatted_gitleaks gitleaks detect --no-git --repo
 ##  View the Transformed Output
 
 - After running the container, the transformed JSON output will be printed to the console.e.
-- The out will be saved in output.json in the working directory or in the specified path.
+- The output will be saved in output.json in the working directory or in the specified path.
 
