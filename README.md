@@ -39,14 +39,14 @@ This project wraps the Gitleaks secret-detection tool in a Python script to enha
 
 Run the following command to build the Docker image:
 
-```bash
+
 docker build -t formatted_gitleaks .
 
 ### 2. Run the Docker Container
 
 To scan the current working directory with Gitleaks, use the following command:
 
-```bash
+
 docker run --rm -v %cd%:/code formatted_gitleaks gitleaks detect --no-git --report-path /code/output.json /code/
 
 ---
